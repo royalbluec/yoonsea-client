@@ -1,7 +1,9 @@
 import React from 'react';
 
+import PageTemplate from '../components/template/PageTemplate';
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return <PageTemplate>HomePage</PageTemplate>;
 };
 
 export default HomePage;

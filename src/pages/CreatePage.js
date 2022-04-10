@@ -1,7 +1,9 @@
 import React from 'react';
 
+import PageTemplate from '../components/template/PageTemplate';
+
 const CreatePage = () => {
-  return <div>CreatePage</div>;
+  return <PageTemplate>CreatePage</PageTemplate>;
 };
 
 export default CreatePage;
